@@ -11,6 +11,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "types": [
+      "node",
       "unplugin-vue2-script-setup/types" 
     ],
     "lib": [
