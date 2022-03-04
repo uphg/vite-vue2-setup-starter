@@ -10,6 +10,7 @@ declare module 'vue' {
     ElButton: typeof import('element-ui/lib/button')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     Home: typeof import('./src/pages/home.vue')['default']
+    SvgIcon: typeof import('./src/components/SvgIcon.vue')['default']
   }
 }
 
