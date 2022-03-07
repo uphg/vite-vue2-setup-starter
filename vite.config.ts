@@ -4,7 +4,7 @@ import { createVuePlugin as Vue2 } from 'vite-plugin-vue2'
 import ScriptSetup from 'unplugin-vue2-script-setup/vite'
 import { ElementUiResolver } from "unplugin-vue-components/resolvers";
 import ViteComponents from "unplugin-vue-components/vite";
-import { svgBuilder } from './plugins/svg-sprite-loader'
+import svgSprite from './plugins/svg-sprite'
 
 const REPLACEMENT = `${path.resolve(__dirname, './src')}/`
 
@@ -46,7 +46,7 @@ export default defineConfig({
       ],
     }),
 
-    svgBuilder('./src/icons/svg/'),
+    svgSprite('./src/icons/svg/'),
   ],
 
   
